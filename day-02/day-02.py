@@ -11,7 +11,7 @@ def medium(a, b, c):
         print(c)
     elif (a>b and b>c) or (c>b and b>a):
         print(b)
-    elif (b>a and a>c) or (c>a and a>b):
+    else:
         print(a)
 
 def big(a, b, c):
@@ -19,7 +19,7 @@ def big(a, b, c):
         print(a)
     elif b>a and b>c:
         print(b)
-    elif c>a and c>b:
+    else:
         print(c)
 
 n = int(input("number of triangles: "))
