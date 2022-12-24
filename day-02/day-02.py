@@ -41,4 +41,5 @@ for y in range(len(key)):
             small(a, b, c)
         elif k%3 == 2:
             medium(a, b, c)
-        elif k%3 == 0:
+        else:
+            big(a, b, c)
