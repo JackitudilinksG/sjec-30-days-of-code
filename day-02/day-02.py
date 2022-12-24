@@ -31,7 +31,7 @@ for x in range(1,n+1):
 
 key = list(l.keys())
 
-for y in range(len(key)):
+for y in range(n):
     k = key.pop(0)
     q = l.get(k)
     while q != []:
