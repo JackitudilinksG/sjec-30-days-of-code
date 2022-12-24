@@ -27,7 +27,7 @@ n = int(input("number of triangles: "))
 l = {}
 for x in range(1,n+1):       #adding into dictionary
     l[x] = []
-    l[x].append(input("sides of triangle: "))
+    l[x].append(input("length of sides: "))
 
 key = list(l.keys())
 
