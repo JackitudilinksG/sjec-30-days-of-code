@@ -30,9 +30,9 @@ for x in range(1,n+1):       #adding into dictionary
     l[x].append(input("sides of triangle: "))
 
 for i in range(1):
-    keys = list(l.keys())
-    for y in range(len(keys)):
-        k = keys.pop(0)
+    key = list(l.keys())
+    for y in range(len(key)):
+        k = key.pop(0)
         q = l.get(k)
         while q != []:
             m = q.pop()
