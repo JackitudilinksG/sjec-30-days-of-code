@@ -1,25 +1,25 @@
 def small(a, b, c):
-    if a > c and b > c:
+    if a>c and b>c:
         print(c)
-    elif a > b and c > b:
+    elif a>b and c>b:
         print(b)
     else:
         print(a)
 
 def medium(a, b, c):
-    if (a > c and c > b) or (b > c and c > a):
+    if (a>c and c>b) or (b>c and c>a):
         print(c)
-    elif (a > b and b > c) or (c > b and b > a):
+    elif (a>b and b>c) or (c>b and b>a):
         print(b)
-    elif (b > a and a > c) or (c > a and a > b):
+    elif (b>a and a>c) or (c>a and a>b):
         print(a)
 
 def big(a, b, c):
-    if a > b and a > c: #biggest
+    if a>b and a>c: #biggest
         print(a)
-    elif b > a and b > c:
+    elif b>a and b>c:
         print(b)
-    elif c > a and c > b:
+    elif c>a and c>b:
         print(c)
 
 n = int(input("number of triangles: "))
