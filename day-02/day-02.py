@@ -15,7 +15,7 @@ def medium(a, b, c):
         print(a)
 
 def big(a, b, c):
-    if a>b and a>c: #biggest
+    if a>b and a>c:
         print(a)
     elif b>a and b>c:
         print(b)
@@ -25,7 +25,7 @@ def big(a, b, c):
 n = int(input("number of triangles: "))
 
 l = {}
-for x in range(1,n+1):       #adding into dictionary
+for x in range(1,n+1):
     l[x] = []
     l[x].append(input("length of sides: "))
 
