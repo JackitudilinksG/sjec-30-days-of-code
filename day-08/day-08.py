@@ -1,6 +1,11 @@
 m = int(input("Enter first number: "))
 n = int(input("Enter second number: "))
 
+if m == 1:
+    m = m + 1
+else:
+    n = n + 1
+
 if (m > 0 and n > 0 and m < n):
     for i in range(m, n+1):
         x = 1   #one interval
