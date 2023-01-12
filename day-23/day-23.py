@@ -15,6 +15,9 @@ while steps<10:
     if num != revr(num):
         num += revr(num)
         steps += 1
+        if steps == 500:
+            print("too big")
+            quit()
     else:
         break
 
