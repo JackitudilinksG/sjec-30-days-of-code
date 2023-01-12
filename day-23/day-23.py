@@ -14,6 +14,7 @@ steps = 0
 while steps<10:
     if num != revr(num):
         num += revr(num)
+        steps += 1
     else:
         break
 
